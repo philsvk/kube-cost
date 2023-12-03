@@ -1,0 +1,7 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Repository
+metadata:
+  name: kubecost
+spec:
+  type: helm
+  url: https://kubecost.github.io/cost-analyzer/
